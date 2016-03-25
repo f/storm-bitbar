@@ -9,7 +9,8 @@ brew cask install bitbar
 
 To install storm-ssh tray, run:
 ```
-wget https://github.com/f/storm-bitbar/raw/master/stormssh.30s.sh -o ~/your/plugin/path/stormssh.30s.sh
+cd ~/your/plugin/path/
+wget https://github.com/f/storm-bitbar/raw/master/stormssh.30s.sh
 ```
 
 ## Where's my plugin path?
