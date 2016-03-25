@@ -11,6 +11,7 @@ To install storm-ssh tray, run:
 ```
 cd ~/your/plugin/path/
 wget https://github.com/f/storm-bitbar/raw/master/stormssh.30s.sh
+chmod +x stormssh.30s.sh
 ```
 
 ## Where's my plugin path?
