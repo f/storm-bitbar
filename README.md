@@ -12,7 +12,7 @@ wget https://github.com/f/storm-bitbar/raw/master/stormssh.30s.sh -o ~/your/plug
 brew cask install bitbar
 ```
 
-![Imgur](http://i.imgur.com/i4m0OSN.png)
+![Imgur](http://i.imgur.com/G5h9qKO.png)
 
 ## License
 MIT.
