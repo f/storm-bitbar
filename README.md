@@ -5,7 +5,7 @@
 To install bitbar, run:
 ```
 brew cask install bitbar
-pip install storm-ssh # you must.
+pip install stormssh
 ```
 
 To install storm-ssh tray, run:
