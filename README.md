@@ -22,6 +22,8 @@ open ~/Library/Preferences/com.matryer.BitBar.plist
 
 and edit your `pluginsPath` key.
 
+---
+
 ![Imgur](http://i.imgur.com/G5h9qKO.png)
 
 ## License
