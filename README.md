@@ -27,4 +27,5 @@ and edit your `pluginsPath` key.
 ![Imgur](http://i.imgur.com/G5h9qKO.png)
 
 ## License
-MIT.
+
+MIT License, Copyright (c) 2016 Fatih Kadir Akın
