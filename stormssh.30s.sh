@@ -19,4 +19,4 @@ echo "---"
 export STORM_CONNECTION=$(storm list | grep "\->" | wc -l)
 echo "$STORM_CONNECTION connections"
 echo "---"
-storm list | grep "\->" | sed -rn "s/\s*(.*)\->.*/\1/p" | sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" | sed -rn "s/(.*)/\1 | color=black bash=ssh param1=\1/p"
+storm list | grep "\->" | sed -E "s/\s*(.*)\->.*/\1/g" | sed -E "s/"$'\E'"\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g" | sed -En "s/(.*)/\1 | color=black bash=ssh param1=\1/p"
